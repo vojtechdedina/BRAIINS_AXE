@@ -10,560 +10,6 @@
 		(rev "1.00")
 	)
 	(lib_symbols
-		(symbol "AON7408:AON7408"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at -8.89 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AON7408"
-				(at -8.89 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AON7408:TRANS_AON7408"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-Channel 30 V 7.5A (Ta), 20A (Ta) 1.7W (Ta), 20W (Tc) Surface Mount 8-DFN-EP (3x3)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "Alpha &"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.90 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "DFN-8 Alpha &amp;"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AON7408/Alpha+%2526+Omega+Semiconductor+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON7408/Alpha+%2526+Omega+Semiconductor+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "AON7408"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Alpha & Omega Semiconductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "AON7408_0_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.048 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.762) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1201,196 +647,6 @@
 				)
 			)
 			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2256,6 +1512,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:FDMT80060DC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FDMT80060DC"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMT80060DC-D.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "43A Id, 60V Vds, PowerTrench N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC 8x8mm MLP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PowerTrench Power MOSFET N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PQFN*8x8*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FDMT80060DC_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FDMT80060DC_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lm5069:LM5069"
 			(pin_names
 				(offset 1.016)
@@ -2541,7 +2111,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+VSW"
+		(symbol "power:+12V"
 			(power global)
 			(pin_names
 				(offset 0)
@@ -2562,7 +2132,7 @@
 					)
 				)
 			)
-			(property "Value" "+VSW"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2594,7 +2164,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2616,7 +2186,7 @@
 					)
 				)
 			)
-			(symbol "+VSW_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2654,12 +2224,12 @@
 					)
 				)
 			)
-			(symbol "+VSW_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(hide yes)
-					(name "+VSW"
+					(name "+12V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2976,7 +2546,7 @@
 	)
 	(text "IDEAL DIODE"
 		(exclude_from_sim no)
-		(at 250.19 110.49 0)
+		(at 254 101.6 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2989,7 +2559,7 @@
 	)
 	(text "R sense"
 		(exclude_from_sim no)
-		(at 165.1 121.92 0)
+		(at 165.1 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3009,33 +2579,9 @@
 		)
 		(uuid "177bda28-64a5-4553-ae66-aa7ba11ccadc")
 	)
-	(text "power good"
-		(exclude_from_sim no)
-		(at 218.44 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "828cc3fb-b516-451d-87bb-7cd8858a7c2b")
-	)
-	(text "softstart\nover current protection = 2A max\nUVLO = below 4V\nOVLP = over 27V"
-		(exclude_from_sim no)
-		(at 144.78 106.68 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "996d4baf-5285-4f3a-8861-4ab2b37f309f")
-	)
 	(text "12-14V IN"
 		(exclude_from_sim no)
-		(at 81.28 106.68 0)
+		(at 95.504 100.33 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3046,6 +2592,19 @@
 		)
 		(uuid "b823ff86-10d3-4a06-bb9b-35127270ea20")
 	)
+	(text "OVLO"
+		(exclude_from_sim no)
+		(at 190.754 100.076 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "eab056bb-04a2-4541-adbc-4665de466caf")
+	)
 	(junction
 		(at 236.22 125.73)
 		(diameter 0)
@@ -3053,22 +2612,28 @@
 		(uuid "02080ced-766b-4785-917a-7e383a520d70")
 	)
 	(junction
-		(at 281.94 113.03)
+		(at 292.1 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "041cef60-f99d-482b-808e-9f7ba43f1e9b")
+		(uuid "0621d3a0-1d96-469a-b4e4-b0d614030ebe")
 	)
 	(junction
-		(at 114.3 116.84)
+		(at 114.3 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1621086e-49e0-4003-b0eb-3e1d01407171")
 	)
 	(junction
-		(at 214.63 135.89)
+		(at 160.02 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e8d61a5-28ae-441c-bad2-a41ebc1bc674")
+		(uuid "1728d55a-fac9-4db3-aab9-4d2560767da6")
+	)
+	(junction
+		(at 281.94 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb1563c-08b1-42f1-ad33-18050ace1379")
 	)
 	(junction
 		(at 172.72 128.27)
@@ -3077,34 +2642,28 @@
 		(uuid "489a87d6-2819-4503-942b-fded96e9da96")
 	)
 	(junction
+		(at 236.22 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6506281f-47a5-4e5a-82db-0cd08a2a1a51")
+	)
+	(junction
 		(at 194.31 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b52693d-f121-4538-b4c1-42ed841236b4")
+		(uuid "724fea1c-a677-4610-8ab9-2fafb2f61762")
 	)
 	(junction
-		(at 160.02 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d0e8fea-70a8-4adc-b39f-e7128e5f857b")
-	)
-	(junction
-		(at 160.02 116.84)
+		(at 160.02 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "736f7ce1-f6ae-4474-8d60-86ff712b6608")
 	)
 	(junction
-		(at 125.73 116.84)
+		(at 125.73 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dd7d4ee-2f36-4f41-802a-019ba5e3c1f2")
-	)
-	(junction
-		(at 236.22 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ee39cdf-027a-4fab-87cb-8b20fbb9fd27")
 	)
 	(junction
 		(at 160.02 153.67)
@@ -3113,10 +2672,10 @@
 		(uuid "8990f13b-d327-41d2-b45a-5f3289c1bed5")
 	)
 	(junction
-		(at 292.1 113.03)
+		(at 179.07 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2996ffb-853d-49fd-afd3-c1513c352e9b")
+		(uuid "9d2e55ca-62c7-463d-85c0-91917777a7fd")
 	)
 	(junction
 		(at 160.02 146.05)
@@ -3131,18 +2690,6 @@
 		(uuid "b168a91f-2229-4c8c-bcc1-4e003c6267f1")
 	)
 	(junction
-		(at 227.33 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb48e303-2938-42f1-a7a2-35cbcc20ccc6")
-	)
-	(junction
-		(at 179.07 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca583811-0131-4569-81fc-046d23c126a7")
-	)
-	(junction
 		(at 281.94 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3153,6 +2700,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e59df309-7f04-4002-ad08-476622cddf15")
+	)
+	(junction
+		(at 227.33 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb68cca0-00ab-46a2-b16b-ccd0d3d18bce")
 	)
 	(wire
 		(pts
@@ -3166,7 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 110.49) (xy 292.1 113.03)
+			(xy 292.1 105.41) (xy 292.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 113.03) (xy 227.33 113.03)
+			(xy 199.39 110.49) (xy 227.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3186,23 +2739,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 113.03) (xy 236.22 125.73)
+			(xy 236.22 110.49) (xy 236.22 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07e1df37-ae74-4275-9e90-481297f056e0")
-	)
-	(wire
-		(pts
-			(xy 194.31 118.11) (xy 194.31 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ddc17e7-bee8-4750-8699-5032be685a7b")
 	)
 	(wire
 		(pts
@@ -3226,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 125.73 116.84)
+			(xy 114.3 110.49) (xy 125.73 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3246,23 +2789,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 113.03) (xy 236.22 113.03)
+			(xy 227.33 110.49) (xy 236.22 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23a183a9-88b4-449b-8370-f7f2642d3472")
-	)
-	(wire
-		(pts
-			(xy 281.94 113.03) (xy 281.94 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26b493c1-d896-4ed8-b7fe-f909e0584b53")
 	)
 	(wire
 		(pts
@@ -3296,13 +2829,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 113.03) (xy 227.33 135.89)
+			(xy 292.1 110.49) (xy 299.72 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30603fff-ba89-4144-b673-c774f7b1b52b")
+		(uuid "2fd2bad9-beda-44d2-8c66-139e7622a2e6")
 	)
 	(wire
 		(pts
@@ -3336,16 +2869,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 135.89) (xy 214.63 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417f8cef-e699-4bdf-918f-68ab1604e98d")
-	)
-	(wire
-		(pts
 			(xy 170.18 146.05) (xy 170.18 151.13)
 		)
 		(stroke
@@ -3353,16 +2876,6 @@
 			(type default)
 		)
 		(uuid "41ff79b5-be28-46af-b563-87e703b69e56")
-	)
-	(wire
-		(pts
-			(xy 191.77 153.67) (xy 214.63 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "440e5643-7a30-4bfe-929e-a9922cc20fab")
 	)
 	(wire
 		(pts
@@ -3406,6 +2919,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 110.49) (xy 179.07 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ec3a0c-8422-48a9-aed4-78023def0e67")
+	)
+	(wire
+		(pts
 			(xy 236.22 163.83) (xy 236.22 140.97)
 		)
 		(stroke
@@ -3416,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 113.03) (xy 292.1 128.27)
+			(xy 292.1 110.49) (xy 292.1 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 135.89) (xy 214.63 135.89)
+			(xy 186.69 135.89) (xy 227.33 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3466,23 +2989,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 116.84) (xy 179.07 116.84)
+			(xy 171.45 110.49) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66767285-40a8-410f-aadc-0a879051bfcf")
-	)
-	(wire
-		(pts
-			(xy 194.31 121.92) (xy 196.85 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6734b9d3-dd57-4780-a5e3-ee54d64507dd")
 	)
 	(wire
 		(pts
@@ -3496,33 +3009,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 135.89) (xy 227.33 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a422ec7-4a7b-4d0c-ac47-f71de7221841")
-	)
-	(wire
-		(pts
-			(xy 166.37 116.84) (xy 160.02 116.84)
+			(xy 166.37 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7132fffd-5fb4-4b26-bf6f-b5f180f079b4")
-	)
-	(wire
-		(pts
-			(xy 179.07 113.03) (xy 179.07 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715e9ca5-198e-4a4a-996c-a499b47653e3")
 	)
 	(wire
 		(pts
@@ -3533,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "71726019-7b0a-4caa-af7f-1399b24ba5a1")
-	)
-	(wire
-		(pts
-			(xy 236.22 113.03) (xy 261.62 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c340d7-f54c-4433-b925-9e37f2b082d0")
 	)
 	(wire
 		(pts
@@ -3576,17 +3059,27 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 116.84) (xy 125.73 123.19)
+			(xy 227.33 110.49) (xy 227.33 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81964f06-cc37-4ca5-915d-889449531b95")
+		(uuid "8a4bc2d3-e2ba-4119-bfa3-60af06372371")
 	)
 	(wire
 		(pts
-			(xy 105.41 116.84) (xy 114.3 116.84)
+			(xy 236.22 110.49) (xy 259.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca1143e-22e3-419c-99f7-b649e8d41058")
+	)
+	(wire
+		(pts
+			(xy 105.41 110.49) (xy 114.3 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3686,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 113.03) (xy 179.07 113.03)
+			(xy 189.23 110.49) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +3189,17 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 113.03) (xy 292.1 113.03)
+			(xy 194.31 118.11) (xy 194.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0971202-643c-477a-8151-c1c1a48ae35d")
+	)
+	(wire
+		(pts
+			(xy 281.94 110.49) (xy 292.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3746,7 +3249,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 116.84) (xy 160.02 116.84)
+			(xy 281.94 110.49) (xy 281.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf63e20d-c24a-45ec-9592-a2b8d5b819a3")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3756,7 +3269,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 114.3 116.84)
+			(xy 194.31 121.92) (xy 196.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38ebf0f-8f7e-4326-8e68-e8010b725f12")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 114.3 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3806,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 160.02 128.27)
+			(xy 160.02 110.49) (xy 160.02 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3846,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 113.03) (xy 281.94 113.03)
+			(xy 269.24 110.49) (xy 281.94 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3866,13 +3389,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.84) (xy 179.07 138.43)
+			(xy 125.73 110.49) (xy 125.73 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f11c1459-ad75-4bb8-91a1-1b27056cdd03")
+		(uuid "ebd0b76d-d8f5-49b4-990f-2a6cf29e6443")
 	)
 	(wire
 		(pts
@@ -3893,6 +3416,28 @@
 			(type default)
 		)
 		(uuid "fcff35e0-1aa1-4dc9-bab5-7659a2218198")
+	)
+	(hierarchical_label "PWR_IN"
+		(shape input)
+		(at 105.41 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "372dc786-fc7d-4fc4-a810-f067baf36937")
+	)
+	(hierarchical_label "+12V"
+		(shape output)
+		(at 299.72 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d30104b-c4b9-4bb0-818e-6888195aaccb")
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -4141,329 +3686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 214.63 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a2c45de-9802-46de-877f-29000793b176")
-		(property "Reference" "R53"
-			(at 216.535 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 214.63 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a283119-45da-43d6-a69d-bac312007c5c")
-		)
-		(pin "2"
-			(uuid "f97c90e3-3cad-448b-8bae-6c896f9c40c0")
-		)
-		(instances
-			(project "BRAIINS_AXE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AON7408:AON7408")
-		(at 191.77 115.57 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20825290-c597-40f8-8311-613ee75cc6f6")
-		(property "Reference" "Q17"
-			(at 187.198 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AON7400"
-			(at 183.642 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AON7408:TRANS_AON7408"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-Channel 30 V 7.5A (Ta), 20A (Ta) 1.7W (Ta), 20W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Alpha &"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.90 mm"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DFN-8 Alpha &amp;"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON7408/Alpha+%2526+Omega+Semiconductor+Inc./view-part/?ref=eda"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "G"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON7408/Alpha+%2526+Omega+Semiconductor+Inc./view-part/?ref=snap"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AON7408"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC" " C85734"
-			(at 191.77 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7be2a20c-8861-46d1-8c39-d6c4643193f8")
-		)
-		(pin "2"
-			(uuid "5ab66a84-6b83-4ef7-8c28-983ef7af97c7")
-		)
-		(pin "3"
-			(uuid "652385df-1709-4fb4-a6c6-2e3f1ff9e00a")
-		)
-		(pin "4"
-			(uuid "18af822a-ee3d-479e-ad4a-a3f32c740f7b")
-		)
-		(pin "9"
-			(uuid "c32f53c1-52f6-49a4-af72-beffbd82f7e1")
-		)
-		(instances
-			(project "BRAIINS_AXE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESP32-PoE-ISO_Rev_L:R")
 		(at 250.19 154.94 270)
 		(mirror x)
@@ -4548,6 +3770,92 @@
 			(project "BRAIINS_AXE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:FDMT80060DC")
+		(at 264.16 113.03 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "337d5c48-e047-454c-a3a6-231a4b416661")
+		(property "Reference" "Q2"
+			(at 264.16 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FDMT80060DC"
+			(at 264.16 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8"
+			(at 262.255 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMT80060DC-D.pdf"
+			(at 260.35 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "43A Id, 60V Vds, PowerTrench N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC 8x8mm MLP"
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "df7292f4-6356-4f3c-98b7-9ebddb6963c4")
+		)
+		(pin "1"
+			(uuid "84ac5fa1-bfde-49a7-b5c6-82050934e0ac")
+		)
+		(pin "2"
+			(uuid "dae5990f-4edc-4e0a-be70-e08f74790433")
+		)
+		(instances
+			(project "BRAIINS_AXE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5141,7 +4449,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "18k"
 			(at 156.845 149.987 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +4597,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 168.91 116.84 90)
+		(at 168.91 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5299,7 +4607,7 @@
 		(dnp no)
 		(uuid "61f3b589-5bae-4b6e-bd0f-147d0339e78d")
 		(property "Reference" "R48"
-			(at 173.101 115.824 90)
+			(at 173.101 109.474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5308,8 +4616,8 @@
 				)
 			)
 		)
-		(property "Value" "25mR/1W"
-			(at 169.418 113.538 90)
+		(property "Value" "5mR/3W"
+			(at 169.418 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5318,8 +4626,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 168.91 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 168.91 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5330,7 +4638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 116.84 0)
+			(at 168.91 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +4649,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 116.84 0)
+			(at 168.91 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5352,7 +4660,7 @@
 			)
 		)
 		(property "LCSC" "C2903500"
-			(at 168.91 116.84 0)
+			(at 168.91 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5532,84 +4840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 292.1 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7494e920-c772-4907-a283-62cb5f03b157")
-		(property "Reference" "#PWR0247"
-			(at 292.1 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VSW"
-			(at 292.1 106.172 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44844d46-9454-4790-8d0b-e6a73d6dea95")
-		)
-		(instances
-			(project "BRAIINS_AXE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
-					(reference "#PWR0247")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 160.02 139.7 0)
 		(unit 1)
@@ -5630,7 +4860,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "49k9"
 			(at 156.845 139.827 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +4952,7 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 164.465 158.623 0)
+			(at 165.1 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6004,240 +5234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AON7408:AON7408")
-		(at 266.7 115.57 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "903624b5-fd65-4253-8b1d-265260cc9439")
-		(property "Reference" "Q18"
-			(at 271.272 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AON7400"
-			(at 274.828 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AON7408:TRANS_AON7408"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-Channel 30 V 7.5A (Ta), 20A (Ta) 1.7W (Ta), 20W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Alpha &"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.90 mm"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DFN-8 Alpha &amp;"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON7408/Alpha+%2526+Omega+Semiconductor+Inc./view-part/?ref=eda"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "G"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON7408/Alpha+%2526+Omega+Semiconductor+Inc./view-part/?ref=snap"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AON7408"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
-			(at 266.7 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC" " C85734"
-			(at 266.7 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7be69501-0433-4c3b-a351-c15c839add83")
-		)
-		(pin "2"
-			(uuid "f1dcc5a0-edd8-40ee-92ac-b19cc4fc2b2e")
-		)
-		(pin "3"
-			(uuid "d43d6c50-fcb1-42db-b7b5-4b0f72b6b67e")
-		)
-		(pin "4"
-			(uuid "4dfc5f3d-4e8c-44d4-ad94-57e8a81254a0")
-		)
-		(pin "9"
-			(uuid "5722cae7-3107-4436-92d0-43c502e3bf44")
-		)
-		(instances
-			(project "BRAIINS_AXE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 200.66 128.27 90)
 		(unit 1)
@@ -6322,129 +5318,6 @@
 			(project "BRAIINS_AXE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 214.63 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "947ee698-4a27-420c-adf5-62430b294e33")
-		(property "Reference" "D11"
-			(at 218.2495 149.7965 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "19-213/Y2C-CQ2R2L/3T(CY)"
-			(at 211.963 145.923 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 214.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property " LCSC" "x"
-			(at 214.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC part number" "C72038"
-			(at 214.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C72043"
-			(at 214.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C72043"
-			(at 214.63 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74e7744c-2996-4f9b-95dd-7174ed1b1b65")
-		)
-		(pin "2"
-			(uuid "03d3386f-763c-4e06-b94f-a5d0026c73b4")
-		)
-		(instances
-			(project "BRAIINS_AXE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6807,6 +5680,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 292.1 105.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af423d2e-5554-426e-8e56-10ae43738bc4")
+		(property "Reference" "#PWR0157"
+			(at 292.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 293.878 101.092 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de38a0aa-2848-4f95-bb04-d81e349951a3")
+		)
+		(instances
+			(project "BRAIINS_AXE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 165.1 0)
 		(unit 1)
@@ -6884,6 +5836,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:FDMT80060DC")
+		(at 194.31 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b961427b-3118-4ec7-8b99-2328f1101d30")
+		(property "Reference" "Q1"
+			(at 194.31 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FDMT80060DC"
+			(at 194.31 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8"
+			(at 196.215 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMT80060DC-D.pdf"
+			(at 198.12 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "43A Id, 60V Vds, PowerTrench N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC 8x8mm MLP"
+			(at 194.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b8dfce91-7f12-4ff9-a647-fbbe64ef7d85")
+		)
+		(pin "1"
+			(uuid "00ba3cd0-b037-421b-a9cf-e84557887ee3")
+		)
+		(pin "2"
+			(uuid "ab0dc749-22ab-4023-84bc-a1edc3900118")
+		)
+		(instances
+			(project "BRAIINS_AXE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21b0ff48-68f8-41b8-b044-c8a028f9dc84"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 125.73 127 0)
 		(unit 1)
@@ -6906,7 +5944,7 @@
 			)
 		)
 		(property "Value" "68uF/35V"
-			(at 126.746 124.333 0)
+			(at 126.746 117.983 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7501,7 +6539,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6k"
+		(property "Value" "12k1"
 			(at 156.845 158.877 0)
 			(show_name no)
 			(do_not_autoplace no)
