@@ -933,7 +933,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H1-2",
     "variants": []
   },
   "sheets": [
@@ -967,7 +967,7 @@
     ],
     [
       "9bc1a7d6-07fa-4858-9423-fb2dbf7da294",
-      "T-Display-S3"
+      "controller"
     ]
   ],
   "text_variables": {},
