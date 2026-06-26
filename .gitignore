@@ -1,6 +1,7 @@
 fp-info-cache
 **/build
-**/output
+**/JLCPCB
+**/BRAIINS_AXE-backups
 *-bak
 *-cache.lib
 .net
