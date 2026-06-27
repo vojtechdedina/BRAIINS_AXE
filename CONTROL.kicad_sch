@@ -2622,6 +2622,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2745,193 +2901,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:US1D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "US1D"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "200V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Ultra Fast"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "US1D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "US1D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12724,170 +12693,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "root_1_CAP_NOPOL_Parts.DbLib_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAP CER 1n 5% 2000V 1206"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*CAP1206*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "root_1_CAP_NOPOL_Parts.DbLib_1_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 0.508 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0) (xy 0.508 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "root_1_Resistor_Parts.DbLib_11"
 			(pin_numbers
 				(hide yes)
@@ -14387,6 +14192,12 @@
 		(uuid "3a89a47f-58a3-423f-848a-4c50a939a42c")
 	)
 	(junction
+		(at 374.65 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47048dc7-ea48-4c3f-adb9-cb0d40f90e69")
+	)
+	(junction
 		(at 193.04 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14423,12 +14234,6 @@
 		(uuid "58c7a0c2-c251-4b51-a003-298e40029cd1")
 	)
 	(junction
-		(at 374.65 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58d7f7df-4f8f-45a5-947f-d5b168978f51")
-	)
-	(junction
 		(at 102.87 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14459,10 +14264,10 @@
 		(uuid "66bfb9b3-96d7-4967-810d-b94edcbb5550")
 	)
 	(junction
-		(at 374.65 171.45)
+		(at 374.65 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d15223a-995d-41fc-aee3-ad332c1796fb")
+		(uuid "6e7147ed-ec54-40c3-82ba-6a7ccb1e4c9d")
 	)
 	(junction
 		(at 193.04 123.19)
@@ -14481,12 +14286,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "759b9aef-98e3-4b7f-a0dc-07e1504e457c")
-	)
-	(junction
-		(at 349.25 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83750dd6-4122-46a4-a385-771dcfac7ffb")
 	)
 	(junction
 		(at 251.46 114.3)
@@ -14621,10 +14420,22 @@
 		(uuid "d095b14f-d662-45a4-85a7-84d4bfe7c1a6")
 	)
 	(junction
+		(at 374.65 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d28ff1a7-9ab9-407a-b27e-dc99b4df3059")
+	)
+	(junction
 		(at 190.5 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d40a75a7-09d7-42ab-908b-911927a21b65")
+	)
+	(junction
+		(at 349.25 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e59081-ce4e-448d-aa14-8a554c59cb61")
 	)
 	(junction
 		(at 129.54 148.59)
@@ -15384,16 +15195,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 160.02) (xy 369.57 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468c3ada-d369-406f-ae78-881266ee9129")
-	)
-	(wire
-		(pts
 			(xy 326.39 147.32) (xy 339.09 147.32)
 		)
 		(stroke
@@ -15504,7 +15305,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 160.02) (xy 374.65 171.45)
+			(xy 374.65 160.02) (xy 374.65 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15784,16 +15585,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 185.42) (xy 349.25 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fb1f4ef-86b6-4d17-8183-5171dfb5af51")
-	)
-	(wire
-		(pts
 			(xy 231.14 60.96) (xy 232.41 60.96)
 		)
 		(stroke
@@ -15841,16 +15632,6 @@
 			(type default)
 		)
 		(uuid "724a25a1-e95a-47d0-89ac-316954301be6")
-	)
-	(wire
-		(pts
-			(xy 374.65 171.45) (xy 374.65 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7278e1b3-6209-4ee1-ad98-da849f7f0856")
 	)
 	(wire
 		(pts
@@ -16011,6 +15792,26 @@
 			(type default)
 		)
 		(uuid "802a06bc-8e82-4202-8f3c-b9d0aa685b7d")
+	)
+	(wire
+		(pts
+			(xy 349.25 185.42) (xy 361.95 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8070df1a-c33f-42d7-a797-479eb9407ea6")
+	)
+	(wire
+		(pts
+			(xy 374.65 172.72) (xy 374.65 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815f95e6-68f7-465c-877f-dd8dcd854544")
 	)
 	(wire
 		(pts
@@ -16684,6 +16485,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 160.02) (xy 369.57 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf48aa11-6b08-4387-8956-4138bdc84438")
+	)
+	(wire
+		(pts
 			(xy 340.36 92.71) (xy 340.36 97.79)
 		)
 		(stroke
@@ -16924,6 +16735,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 185.42) (xy 374.65 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66d1c6b-9a5a-4d47-b22d-6b4e0352bbb7")
+	)
+	(wire
+		(pts
 			(xy 102.87 78.74) (xy 102.87 83.82)
 		)
 		(stroke
@@ -17034,7 +16855,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 171.45) (xy 374.65 171.45)
+			(xy 369.57 172.72) (xy 374.65 172.72)
 		)
 		(stroke
 			(width 0)
@@ -21603,6 +21424,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 364.49 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bcad859-5db7-45e6-a29e-65a0321c5911")
+		(property "Reference" "C143"
+			(at 364.236 182.118 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF/2kV"
+			(at 364.744 188.722 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 364.49 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 364.49 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15618ed3-54c2-4f83-ba96-32fe9c4a2bb8")
+		)
+		(pin "2"
+			(uuid "16324cb6-78eb-49e7-b213-eae030b4950a")
+		)
+		(instances
+			(project "BRAIINS_AXE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
+					(reference "C143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Parts:root_1_Inductor_Parts.DbLib")
 		(at 63.5 110.49 180)
 		(unit 1)
@@ -24776,291 +24676,6 @@
 			(project "BRAIINS_AXE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "root_1_CAP_NOPOL_Parts.DbLib_1")
-		(lib_id "Parts:root_1_CAP_NOPOL_Parts.DbLib")
-		(at 361.95 185.42 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "471e011b-9fb0-4fc5-82a6-30ec765f5f2f")
-		(property "Reference" "C143"
-			(at 362.966 183.642 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1n"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 361.95 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1n 5% 2000V 1206"
-			(at 361.95 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ID" "30107"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1n"
-			(at 359.41 187.452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGE_RATING" "2000V"
-			(at 359.664 189.484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PART_TYPE" "Capacitor"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUB_TYPE" "CER"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER PART DESCRIPTION" "CAP CER 1n 5% 2000V 1206"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGE_CASE" "1206"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ROHS" "Yes"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "TOLERANCE" "5%"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "CREATED BY" "janjuranek"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "CREATED_DATE" "2023-03-14 13:31:22"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "UPDATED BY" "janjuranek"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "UPDATED_DATE" "2023-03-14 13:32:03"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PART_STATUS" "New"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Supplier Part Details"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SORTED_VALUE" "1"
-			(at 356.362 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "4f846e56-7fad-4809-8395-92632a011994")
-		)
-		(pin "2"
-			(uuid "00f8a660-9c03-44b8-9d87-7f41f258e1b3")
-		)
-		(instances
-			(project "BRAIINS_AXE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
-					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -34744,141 +34359,6 @@
 			(project "BRAIINS_AXE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
 					(reference "#PWR0236")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:US1D")
-		(at 66.04 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc8f145e-5f13-471f-8f2e-22bb51024d56")
-		(property "Reference" "D3"
-			(at 66.04 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 66.04 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 66.04 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-			(at 66.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DIODE SCHOTTKY 40V 1A SOD123"
-			(at 66.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 66.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "D"
-			(at 66.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "1N5819HWQ-7-F"
-			(at 66.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OrderNr" "31-1N5819HWQ-7-FCT-ND"
-			(at 66.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1555599-645a-4c19-9400-f166e795aa31")
-		)
-		(pin "2"
-			(uuid "81d31c7d-6260-4b79-81d0-c2eba3835eb4")
-		)
-		(instances
-			(project "BRAIINS_AXE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
-					(reference "D3")
 					(unit 1)
 				)
 			)
