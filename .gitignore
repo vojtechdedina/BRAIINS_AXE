@@ -1,6 +1,7 @@
 fp-info-cache
 **/build
 **/JLCPCB
+**/.history
 **/BRAIINS_AXE-backups
 *-bak
 *-cache.lib

@@ -84365,20 +84365,20 @@
 		(uuid "88012299-bcd5-45b5-84bb-1656410dfeb4")
 	)
 	(segment
+		(start 92.4072 177.9278)
+		(end 91.295 179.04)
+		(width 0.508)
+		(layer "B.Cu")
+		(net "Net-(U10-VDD3_1)")
+		(uuid "328698d6-a019-4bc5-af79-bc27cad11630")
+	)
+	(segment
 		(start 91.295 180.6806)
 		(end 91.295 179.04)
 		(width 0.508)
 		(layer "B.Cu")
 		(net "Net-(U10-VDD3_1)")
 		(uuid "54a526bd-6f4a-48ef-bd7c-7faa8f330b15")
-	)
-	(segment
-		(start 92.4072 177.9278)
-		(end 91.295 179.04)
-		(width 0.508)
-		(layer "B.Cu")
-		(net "Net-(U10-VDD3_1)")
-		(uuid "5fee3a45-2bef-4e9f-822c-b390a553acb1")
 	)
 	(segment
 		(start 91.6644 181.05)
@@ -84394,7 +84394,7 @@
 		(width 0.508)
 		(layer "B.Cu")
 		(net "Net-(U10-VDD3_1)")
-		(uuid "a5755a58-e130-4d23-9b36-3c42463f024b")
+		(uuid "b5d48043-9b10-476c-982c-492be446f693")
 	)
 	(segment
 		(start 93.025 181.05)
