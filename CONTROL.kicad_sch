@@ -12641,12 +12641,6 @@
 		(uuid "08b3a52a-92c2-4f15-b199-82b42f488139")
 	)
 	(junction
-		(at 72.39 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e52f1f0-99cf-4a6c-8890-c69826c9b162")
-	)
-	(junction
 		(at 234.95 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12705,6 +12699,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "479e6418-ebb9-49e0-8b99-e624f104e2b0")
+	)
+	(junction
+		(at 72.39 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4833d717-6d99-443e-ba6c-e2afa5ce5d3c")
 	)
 	(junction
 		(at 30.48 237.49)
@@ -13864,7 +13864,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 25.4) (xy 76.2 25.4)
+			(xy 72.39 25.4) (xy 81.28 25.4)
 		)
 		(stroke
 			(width 0)
@@ -14231,16 +14231,6 @@
 			(type default)
 		)
 		(uuid "6ead9b2a-a284-49f9-8481-3dfe2a95bee1")
-	)
-	(wire
-		(pts
-			(xy 72.39 21.59) (xy 72.39 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70508d3b-2f54-46cc-a692-a9ba9ee64d4f")
 	)
 	(wire
 		(pts
@@ -17258,7 +17248,7 @@
 	)
 	(symbol
 		(lib_id "IMPORT-altium-import:GND_POWER_GROUND")
-		(at 76.2 33.02 0)
+		(at 81.28 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17268,7 +17258,7 @@
 		(dnp no)
 		(uuid "04bba36d-6d46-4c84-a137-538852f70f67")
 		(property "Reference" "#PWR0264"
-			(at 76.2 33.02 0)
+			(at 81.28 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17279,7 +17269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 39.37 0)
+			(at 81.28 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17289,7 +17279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 33.02 0)
+			(at 81.28 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17299,7 +17289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 33.02 0)
+			(at 81.28 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17309,7 +17299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 33.02 0)
+			(at 81.28 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27501,6 +27491,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 72.39 21.59 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "6214b519-0ecb-4838-8a82-978699ca800c")
+		(property "Reference" "R80"
+			(at 71.374 27.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC"
+			(at 72.39 21.336 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70.612 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 72.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "D"
+			(at 72.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RMCF0805FT10K0"
+			(at 72.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderNr" "RMCF0805FT10K0CT-ND"
+			(at 72.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a037a16b-a121-48dd-9960-ec60ca2a9b20")
+		)
+		(pin "2"
+			(uuid "c8e0fba9-6f02-4bbd-98e9-ec71f5f99a07")
+		)
+		(instances
+			(project "BRAIINS_AXE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IMPORT-altium-import:GND_POWER_GROUND")
 		(at 342.9 229.87 0)
 		(unit 1)
@@ -28527,7 +28630,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 29.21 0)
+		(at 81.28 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28537,7 +28640,7 @@
 		(dnp no)
 		(uuid "701c79c7-ad55-4b8b-90b0-1a1fc855dc71")
 		(property "Reference" "C184"
-			(at 76.835 27.305 0)
+			(at 81.915 27.305 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28548,7 +28651,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 77.47 33.02 0)
+			(at 82.55 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28559,7 +28662,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28570,7 +28673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28581,7 +28684,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X5R 0805"
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28592,7 +28695,7 @@
 			)
 		)
 		(property "DK" ""
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28603,7 +28706,7 @@
 			)
 		)
 		(property "PARTNO" ""
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28614,7 +28717,7 @@
 			)
 		)
 		(property "Distributor" "D"
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28625,7 +28728,7 @@
 			)
 		)
 		(property "Manufacturer" "C2012X5R1E106K125AB"
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28636,7 +28739,7 @@
 			)
 		)
 		(property "OrderNr" "445-5984-1-ND"
-			(at 76.2 29.21 0)
+			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34996,7 +35099,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 72.39 21.59 0)
+		(at 72.39 17.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35006,7 +35109,7 @@
 		(dnp no)
 		(uuid "aa5ac4c2-dd58-4a46-a2a6-3f0a038f4adc")
 		(property "Reference" "#PWR04007"
-			(at 72.39 25.4 0)
+			(at 72.39 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35017,7 +35120,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 69.088 17.272 0)
+			(at 73.66 16.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35028,7 +35131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 21.59 0)
+			(at 72.39 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35039,7 +35142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 21.59 0)
+			(at 72.39 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35050,7 +35153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 21.59 0)
+			(at 72.39 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
