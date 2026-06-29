@@ -14854,6 +14854,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 20.32) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62145a4-c279-42dd-a607-73b0e24c46d9")
+	)
+	(wire
+		(pts
 			(xy 367.03 35.56) (xy 367.03 41.91)
 		)
 		(stroke
@@ -15271,6 +15281,16 @@
 			(type default)
 		)
 		(uuid "c8bd3be7-aa36-4d26-a1f8-3c187c1101ff")
+	)
+	(wire
+		(pts
+			(xy 58.42 31.75) (xy 62.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c925eb97-ce3d-4760-ad08-f4475809d63b")
 	)
 	(wire
 		(pts
@@ -15861,6 +15881,16 @@
 			(type default)
 		)
 		(uuid "f998b6d8-60d1-426c-8e1b-3765e1cc3def")
+	)
+	(wire
+		(pts
+			(xy 62.23 31.75) (xy 62.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2620b5-abe1-40dc-9d70-f8b1c97be9ff")
 	)
 	(wire
 		(pts
@@ -24445,6 +24475,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f95f135-c49f-43a6-8f71-03b683432d45")
+		(property "Reference" "#PWR0183"
+			(at 50.8 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.102 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00a0ccde-73b3-403a-8bb3-8fc7d8560f00")
+		)
+		(instances
+			(project "BRAIINS_AXE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
 		(at 21.59 124.46 90)
 		(unit 1)
@@ -30898,6 +31005,118 @@
 			(project "BRAIINS_AXE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
 					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 54.61 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89d76e08-29cb-4d21-b5b9-9af5c4a2f710")
+		(property "Reference" "D7"
+			(at 54.61 26.2636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG4030EP,115"
+			(at 50.292 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 3A SOD128"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "D"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PMEG4030EP,115"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderNr" "1727-5841-1-ND"
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2637ff1c-8c30-489f-b666-06e0c9b4748b")
+		)
+		(pin "2"
+			(uuid "0537f322-488c-4fb1-ae03-1c5b5a7813c0")
+		)
+		(instances
+			(project "BRAIINS_AXE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9bc1a7d6-07fa-4858-9423-fb2dbf7da294"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -41451,5 +41670,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
