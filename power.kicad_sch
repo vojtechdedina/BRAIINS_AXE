@@ -11780,7 +11780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 320.04 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11974,7 +11974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 324.866 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12437,7 +12437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 299.72 157.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12666,7 +12666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 335.28 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12937,7 +12937,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 175.895 268.605 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13266,7 +13266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 336.55 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13755,7 +13755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µ/6.3V"
+		(property "Value" "100uF/6.3V"
 			(at 245.11 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14183,7 +14183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µ/6.3V"
+		(property "Value" "100uF/6.3V"
 			(at 259.08 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14487,7 +14487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 284.48 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15057,7 +15057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µ/6.3V"
+		(property "Value" "100uF/6.3V"
 			(at 251.46 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15172,7 +15172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "2.2uF"
 			(at 182.88 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15558,7 +15558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220µ/25V"
+		(property "Value" "220uF/25V"
 			(at 351.155 37.465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15865,7 +15865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 289.56 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15980,7 +15980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "2.2uF"
 			(at 184.15 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16094,7 +16094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 303.53 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16477,7 +16477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/16V"
+		(property "Value" "22uF/16V"
 			(at 84.201 217.043 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16591,7 +16591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 330.2 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17206,7 +17206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 353.06 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18030,7 +18030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220µ/25V"
+		(property "Value" "220uF/25V"
 			(at 342.265 37.465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18297,7 +18297,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µH/2.3A/2.7A"
+		(property "Value" "4.7uH/2.3A/2.7A"
 			(at 63.5 256.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19381,7 +19381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 314.96 156.718 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20005,7 +20005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 77.47 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20613,7 +20613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 294.64 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21001,7 +21001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "2.2uF"
 			(at 184.15 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21388,7 +21388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ/25V"
+		(property "Value" "10uF/25V"
 			(at 27.051 214.503 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21658,7 +21658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 304.8 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21851,7 +21851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 199.39 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22043,7 +22043,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10µ"
+		(property "Value" "10uF"
 			(at 264.16 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22563,7 +22563,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µH/2.3A/2.7A"
+		(property "Value" "4.7uH/2.3A/2.7A"
 			(at 62.23 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23025,7 +23025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 341.63 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23851,7 +23851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µ"
+		(property "Value" "4.7uF"
 			(at 82.55 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24388,7 +24388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µ/6.3V"
+		(property "Value" "100uF/6.3V"
 			(at 278.13 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25078,7 +25078,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10µ"
+		(property "Value" "10uF"
 			(at 256.54 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26572,7 +26572,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 234.95 268.605 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26709,7 +26709,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 312.42 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26981,7 +26981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 328.93 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27592,7 +27592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/16V"
+		(property "Value" "22uF/16V"
 			(at 85.471 266.573 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28090,7 +28090,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ/25V"
+		(property "Value" "10uF/25V"
 			(at 28.321 264.033 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28204,7 +28204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 285.75 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28396,7 +28396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ/25V"
+		(property "Value" "22uF/25V"
 			(at 344.17 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28814,7 +28814,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 309.88 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30777,7 +30777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 218.44 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31307,7 +31307,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10µ"
+		(property "Value" "10uF"
 			(at 271.78 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31443,7 +31443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 320.04 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32728,7 +32728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µ/6.3V"
+		(property "Value" "100uF/6.3V"
 			(at 271.78 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33089,7 +33089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 238.76 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33627,7 +33627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µ/6.3V"
+		(property "Value" "100uF/6.3V"
 			(at 265.43 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34585,7 +34585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µ/4V"
+		(property "Value" "330uF/4V"
 			(at 294.64 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34890,7 +34890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 87.63 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)

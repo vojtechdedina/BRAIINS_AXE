@@ -2793,7 +2793,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 87.63 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µ/6.3V"
+		(property "Value" "100uF/6.3V"
 			(at 140.716 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3382,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 161.544 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +3552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 174.244 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3722,7 +3722,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10µ/25V"
+		(property "Value" "10uF/25V"
 			(at 122.174 132.842 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4402,7 +4402,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 185.674 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +4935,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 72.898 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5691,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 134.112 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5861,7 +5861,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 183.134 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6312,7 +6312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 99.314 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6573,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 87.884 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7386,7 +7386,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 147.574 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7556,7 +7556,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 110.744 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,7 +7726,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 197.358 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +7896,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1µ/25V"
+		(property "Value" "1uF/25V"
 			(at 123.444 43.561 90)
 			(show_name no)
 			(do_not_autoplace no)
