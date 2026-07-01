@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.0,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -51,23 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
-          "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -882,204 +866,6 @@
           "label": "Brand",
           "name": "Brand",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER PART DESCRIPTION",
-          "name": "MANUFACTURER PART DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER PART NUMBER",
-          "name": "MANUFACTURER PART NUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "COMPONENTLINK1DESCRIPTION",
-          "name": "COMPONENTLINK1DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PACKAGE",
-          "name": "PACKAGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PACKAGE_CASE",
-          "name": "PACKAGE_CASE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PART_STATUS",
-          "name": "PART_STATUS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PART_TYPE",
-          "name": "PART_TYPE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "COMPONENTLINK2DESCRIPTION",
-          "name": "COMPONENTLINK2DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "POWER_RATING",
-          "name": "POWER_RATING",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PRICE",
-          "name": "PRICE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "REVISION",
-          "name": "REVISION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ROHS",
-          "name": "ROHS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "SORTED_VALUE",
-          "name": "SORTED_VALUE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SUB_TYPE",
-          "name": "SUB_TYPE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SUPPLIER 1",
-          "name": "SUPPLIER 1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SUPPLIER PART NUMBER 1",
-          "name": "SUPPLIER PART NUMBER 1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "temp-coefficient",
-          "name": "temp-coefficient",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "TEMPERATURE RANGE",
-          "name": "TEMPERATURE RANGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "TOLERANCE",
-          "name": "TOLERANCE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "UPDATED BY",
-          "name": "UPDATED BY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "UPDATED_DATE",
-          "name": "UPDATED_DATE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "VOLTAGE_RATING",
-          "name": "VOLTAGE_RATING",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "COMPONENTLINK2URL",
-          "name": "COMPONENTLINK2URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CREATED BY",
-          "name": "CREATED BY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CREATED_DATE",
-          "name": "CREATED_DATE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CURRENT_RATING",
-          "name": "CURRENT_RATING",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DIELECTRIC",
-          "name": "DIELECTRIC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "AVAILABILITY",
-          "name": "AVAILABILITY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ALTIUM_VALUE",
-          "name": "ALTIUM_VALUE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ID",
-          "name": "ID",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -1148,7 +934,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "H9-10,U15,D7,#PWR183",
+    "used_designators": "J5,#PWR201,#PWR203-204,C153,C194",
     "variants": []
   },
   "sheets": [
