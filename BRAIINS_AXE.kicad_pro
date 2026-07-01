@@ -934,7 +934,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "J5,#PWR201,#PWR203-204,C153,C194",
+    "used_designators": "#PWR201,#PWR203-204,C153,J5",
     "variants": []
   },
   "sheets": [
